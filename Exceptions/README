@@ -1,0 +1,14 @@
+$ prove -v  -Ilib/ t/exception.t 
+
+t/exception.t .. 
+1..6
+ok 1 - use Exception;
+ok 2 - thrown
+ok 3 - Exception::Argument thrown
+ok 4 - Exception::Development thrown
+ok 5 - Exception::NotImplementedYet thrown
+ok 6 - exception message has been parsed
+ok
+All tests successful.
+Files=1, Tests=6,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.30 cusr  0.02 csys =  0.36 CPU)
+Result: PASS
